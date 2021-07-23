@@ -56,7 +56,7 @@ def main(sc,filename):
   
    
 if __name__ == "__main__":
-   conf = SparkConf().setMaster("local[1]").setAppName("Bitcoin Mock Test")
+   conf = SparkConf().setMaster("local[1]").setAppName("Bitcoin")
    sc = SparkContext(conf=conf)
    filename="bitcoin.csv"
    main(sc,filename)
